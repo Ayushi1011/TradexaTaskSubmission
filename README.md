@@ -14,3 +14,8 @@
 Public api used:
   GET, POST https://jsonplaceholder.typicode.com/posts
 
+
+## Explanation:
+We have three files wherein one file contains all the html code, the other is a javascript file which is used for interaction with the API and performs error handling checks and the last one is the css file. All these files work in sync and hence fulfill all of the above mentioned tasks.
+
+## Output
