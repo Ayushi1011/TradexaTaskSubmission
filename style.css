@@ -1,0 +1,81 @@
+table,th,td{
+    border: 2px solid black;
+}
+.tab{
+    margin-top: 30px;
+    text-align: center;
+}
+
+#mm{
+    width: 10%;
+    font-size:20px;
+    padding: 15px 32px;
+
+}
+.click{
+    margin-top: 20px;
+}
+@media only screen and (max-width: 600px){
+
+    
+#mm{
+    width: 32%;
+    font-size:20px;
+    padding: 13px 32px;}
+
+    img#plus{
+        position:absolute;
+        bottom: 0px;
+        left: 35px;
+        width:20px;
+        height: 20px;
+        top:37px;
+    }
+  
+}
+
+img#plus{
+    position:absolute;
+    bottom: 0px;
+    left: 35px;
+    width:20px;
+    height: 20px;
+    top:37px;
+}
+
+.popup{
+    height:100%;
+    width: 100%;
+    position: absolute;
+    top:0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    height: 250px;
+    width: 500px;
+    background:white;
+    padding: 100px;
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+    
+}
+
+input{
+    margin: 20px auto;
+    display: block;
+    width: 50%;
+    border-color: black;
+}
+
+a.button{
+    width: 10%;
+    font-size:20px;
+    padding: 8px 32px;
+    background-color: rgb(177, 173, 167);
+    color: black;
+
+}

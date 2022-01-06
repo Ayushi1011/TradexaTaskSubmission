@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TRADEXA_internship</title>
+    <!-- importing stylesheet and script file -->
+    <link rel="stylesheet" href="style.css">
+    <script src="interact.js"></script> 
+</head>
+<body>
+    <header>
+        <!-- add button placed on the top of the table -->
+        <div class="click" >
+            <img src="plus.png" alt="" id="plus">
+            <button id="mm" onclick="openform()" >ADD</button>
+            </div>
+
+            <!-- script that will open and close a form when clicked  on specific button-->
+            <script>
+            function openform() {
+            document.querySelector(".popup").style.display="flex";
+            }
+            function closeform(){
+            document.querySelector(".popup").style.display="none";
+            }
+            </script>
+
+    </header>
+
+    <!-- creating simple tabular format  -->
+<table class="tab">
+    <thead>
+        <tr> 
+            <th>title</th>
+            <th>body</th>
+        </tr>
+    </thead>
+    <tbody id="data"></tbody>
+</table>
+
+<!-- created popup form view with basic input fields  -->
+
+<div class="popup" id="modal">
+<div class="content" id="form">
+    <input type="text" placeholder="title.." id="title">
+    <input type="text" placeholder="body.." id="body">
+    <button id="btnClose" onclick="post_form()">Submit</button>
+    <button id="btnClose" onclick="closeform()">Close</button>
+</div>
+</div>
+</body>
+</html>
+
