@@ -1,7 +1,7 @@
 # TradexaTaskSubmission
 
 
-##List of Tasks:
+## List of Tasks:
 1. Fetch a list of posts from an api and display them in a simple tabular format
 2. Place an add button on top of the table which will open a form when clicked
 3. On the form create basic input fields
