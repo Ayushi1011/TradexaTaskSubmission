@@ -57,7 +57,7 @@ function CheckError(response) {
 
 // send POST request
 fetch(url, options).then(CheckError)
-    .then(data => append_table(data))
+    .then(data => append_table(data),alert("Value added successfully scroll down to check"))
 
     // append function to append on successful response
     function append_table(data){
